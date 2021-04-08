@@ -1,13 +1,3 @@
-## Table of contents
-
-- Objective and environment
-- Build process
-- Prerequisites
-- Verification
-- Initial Setup
-- First Project
-- Cloning
-
 ## Objective and environment
 
 Set up coding environment for C++ in the following environment, which can be demonstrated by the successful execution of Hello World program.
@@ -197,4 +187,23 @@ Run the main.exe in terminal via `build\main.exe`, and you will see an output!
         * Variable substitution of workspaceFolder is used.
 
 ## Cloning
-In this example, you coded your files on your own and they are all stored in your machine. This is impossible when working with other people, and is where git comes into play.
+In this example, you coded your files on your own and they are all stored in your machine. This is impossible when working with other people, and is where git comes into play. Github stores the files and distributes them to collaborators.
+
+To simulate this, *clone* this repository to your `project` folder.
+* While in projects directory, run `git clone https://github.com/kubrian/HelloWorldBase`.
+
+Compile and run the program. Good luck!
+
+## Documentation and further reading
+* Github structure and git
+    * [Github Guide](https://guides.github.com/)
+    * [Basics of git](https://git-scm.com/book/en/v2)
+* C++
+    * [Devdocs Documentation](https://devdocs.io/cpp/)
+        * Based on [cppreference](https://en.cppreference.com/w/)
+* Moving forward
+    * Advanced building via [Cmake] (https://cmake.org/)
+        * CMake makes Makefile which is used to build complex projects (Think of it as a file that specify the args for g++)
+        * CMake is crossplatform by its ability to work with native compilers.
+    * GUI via [OpenGL](https://www.opengl.org/)
+        * Implemented by [GLFW](https://www.glfw.org/), [GLAD](https://github.com/Dav1dde/glad), [GLEW](http://glew.sourceforge.net/), etc.
